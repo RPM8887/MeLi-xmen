@@ -1,6 +1,9 @@
 # meli-xmen-rest-API *CHALLENGE*
 
 A serverless mutant DNA analyzer REST API written in JavaScript (nodeJs v8.10) for AWS cloud.
+
+![basic architecture](https://raw.githubusercontent.com/RPM8887/MeLi-xmen/master/basic_arch.png)
+
 ## AWS Services used by the project
 The following services are used either directly or indirectly by the project
 - CloudFormation
@@ -13,6 +16,7 @@ The following services are used either directly or indirectly by the project
 ## Running/testing the API
 The API is currently published under the following endpoints:
   >POST - https://nqao9fdx9a.execute-api.us-east-1.amazonaws.com/dev/mutant
+  >
   >GET - https://nqao9fdx9a.execute-api.us-east-1.amazonaws.com/dev/stats
 ### Sample input data
 Valid input json messages for DNA analysis are provided inside **/test/*.json**
